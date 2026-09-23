@@ -1,0 +1,238 @@
+/**
+ * DEMO DATA — design prototype only.
+ * ----------------------------------
+ * These values are illustrative and NOT verified measurements.
+ * Every surface that renders them must carry the demo-data label.
+ *
+ * To replace with real data: export canopy series from Google Earth
+ * Engine (see /docs/google-earth-engine-integration.md and
+ * /data/import/), then regenerate this file — or import the JSON
+ * directly — keeping the LocalityRecord shape intact.
+ */
+
+import type { CanopyYear, DatasetMeta, LocalityRecord } from "./treeScoreSchema";
+
+export const demoDatasetMeta: DatasetMeta = {
+  source: "demo",
+  label: "Demo data for design prototype",
+  generatedOn: "2026-06-12",
+};
+
+/** Years rendered across the product. */
+export const SERIES_YEARS = [2016, 2018, 2020, 2022, 2024, 2026] as const;
+
+/**
+ * Builds a plausible, smoothly-declining demo series ending at the
+ * locality's current canopy percentage and spanning its 2016 trend.
+ * Demo-only convenience — real series come from satellite composites.
+ */
+function demoSeries(currentPercent: number, trendSince2016: number): CanopyYear[] {
+  const start = currentPercent - trendSince2016;
+  const steps = SERIES_YEARS.length - 1;
+  return SERIES_YEARS.map((year, i) => {
+    // Ease-out curve: faster early change, settling toward today.
+    const t = i / steps;
+    const eased = 1 - Math.pow(1 - t, 1.6);
+    const value = start + (currentPercent - start) * eased;
+    return { year, canopyPercent: Math.round(value * 10) / 10 };
+  });
+}
+
+type DemoSeed = Omit<LocalityRecord, "years"> & { years?: CanopyYear[] };
+
+const seeds: DemoSeed[] = [
+  {
+    id: "powai",
+    name: "Powai",
+    city: "Mumbai",
+    ward: "S",
+    treeScore: 78,
+    canopyPercent: 23.0,
+    rank: 2,
+    totalLocalities: 20,
+    trendSince2016: -0.8,
+    status: "Dense canopy",
+    insight:
+      "Powai currently shows among the highest estimated canopy coverage of the sampled Mumbai localities.",
+    mapPosition: { x: 66, y: 38 },
+  },
+  {
+    id: "borivali",
+    name: "Borivali",
+    city: "Mumbai",
+    ward: "R-Central",
+    treeScore: 74,
+    canopyPercent: 21.8,
+    rank: 3,
+    totalLocalities: 20,
+    trendSince2016: -0.5,
+    status: "Dense canopy",
+    insight:
+      "Borivali shows high estimated canopy coverage, supported by its proximity to large protected green areas.",
+    mapPosition: { x: 48, y: 12 },
+  },
+  {
+    id: "juhu",
+    name: "Juhu",
+    city: "Mumbai",
+    ward: "K-West",
+    treeScore: 61,
+    canopyPercent: 15.4,
+    rank: 6,
+    totalLocalities: 20,
+    trendSince2016: -1.1,
+    status: "Moderate canopy",
+    insight:
+      "Juhu shows moderate estimated canopy coverage relative to the sampled Mumbai localities.",
+    mapPosition: { x: 36, y: 42 },
+  },
+  {
+    id: "goregaon",
+    name: "Goregaon",
+    city: "Mumbai",
+    ward: "P-South",
+    treeScore: 58,
+    canopyPercent: 14.1,
+    rank: 7,
+    totalLocalities: 20,
+    trendSince2016: -0.9,
+    status: "Moderate canopy",
+    insight:
+      "Goregaon shows moderate estimated canopy coverage among the sampled Mumbai localities.",
+    mapPosition: { x: 50, y: 26 },
+  },
+  {
+    id: "bandra-west",
+    name: "Bandra West",
+    city: "Mumbai",
+    ward: "H-West",
+    treeScore: 55,
+    canopyPercent: 13.2,
+    rank: 8,
+    totalLocalities: 20,
+    trendSince2016: -1.4,
+    status: "Moderate canopy",
+    insight:
+      "Bandra West shows moderate estimated canopy coverage relative to the sampled Mumbai localities.",
+    mapPosition: { x: 40, y: 54 },
+  },
+  {
+    id: "chembur",
+    name: "Chembur",
+    city: "Mumbai",
+    ward: "M-West",
+    treeScore: 52,
+    canopyPercent: 12.4,
+    rank: 9,
+    totalLocalities: 20,
+    trendSince2016: -1.7,
+    status: "Moderate canopy",
+    insight:
+      "Chembur shows moderate estimated canopy coverage with a notable decline since 2016.",
+    mapPosition: { x: 68, y: 54 },
+  },
+  {
+    id: "versova",
+    name: "Versova",
+    city: "Mumbai",
+    ward: "K-West",
+    treeScore: 48,
+    canopyPercent: 10.5,
+    rank: 11,
+    totalLocalities: 20,
+    trendSince2016: -2.4,
+    status: "Low canopy",
+    insight:
+      "Versova shows lower estimated canopy coverage and the steepest decline since 2016 among the sampled localities.",
+    mapPosition: { x: 32, y: 36 },
+  },
+  {
+    id: "andheri-west",
+    name: "Andheri West",
+    city: "Mumbai",
+    ward: "K-West",
+    treeScore: 42,
+    canopyPercent: 8.7,
+    rank: 14,
+    totalLocalities: 20,
+    trendSince2016: -2.1,
+    status: "Low canopy",
+    insight:
+      "Andheri West currently shows lower estimated canopy coverage than several northern and eastern Mumbai neighbourhoods.",
+    mapPosition: { x: 38, y: 38 },
+    years: [
+      { year: 2016, canopyPercent: 10.8 },
+      { year: 2018, canopyPercent: 10.1 },
+      { year: 2020, canopyPercent: 9.6 },
+      { year: 2022, canopyPercent: 9.1 },
+      { year: 2024, canopyPercent: 8.9 },
+      { year: 2026, canopyPercent: 8.7 },
+    ],
+  },
+  {
+    id: "dadar",
+    name: "Dadar",
+    city: "Mumbai",
+    ward: "G-North",
+    treeScore: 39,
+    canopyPercent: 7.9,
+    rank: 15,
+    totalLocalities: 20,
+    trendSince2016: -1.6,
+    status: "Low canopy",
+    insight:
+      "Dadar shows lower estimated canopy coverage, consistent with its dense central-city built form.",
+    mapPosition: { x: 48, y: 66 },
+  },
+  {
+    id: "worli",
+    name: "Worli",
+    city: "Mumbai",
+    ward: "G-South",
+    treeScore: 35,
+    canopyPercent: 6.8,
+    rank: 17,
+    totalLocalities: 20,
+    trendSince2016: -1.3,
+    status: "Low canopy",
+    insight:
+      "Worli shows lower estimated canopy coverage relative to the sampled Mumbai localities.",
+    mapPosition: { x: 44, y: 74 },
+  },
+  {
+    id: "colaba",
+    name: "Colaba",
+    city: "Mumbai",
+    ward: "A",
+    treeScore: 31,
+    canopyPercent: 5.9,
+    rank: 18,
+    totalLocalities: 20,
+    trendSince2016: -0.7,
+    status: "Low canopy",
+    insight:
+      "Colaba shows lower estimated canopy coverage, typical of the island city's southern tip.",
+    mapPosition: { x: 50, y: 92 },
+  },
+  {
+    id: "marine-lines",
+    name: "Marine Lines",
+    city: "Mumbai",
+    ward: "C",
+    treeScore: 24,
+    canopyPercent: 4.2,
+    rank: 20,
+    totalLocalities: 20,
+    trendSince2016: -0.9,
+    status: "Low canopy",
+    insight:
+      "Marine Lines currently shows the lowest estimated canopy coverage of the sampled Mumbai localities.",
+    mapPosition: { x: 46, y: 84 },
+  },
+];
+
+/** All demo localities, with historical series filled in. */
+export const demoLocalities: LocalityRecord[] = seeds.map((seed) => ({
+  ...seed,
+  years: seed.years ?? demoSeries(seed.canopyPercent, seed.trendSince2016),
+}));

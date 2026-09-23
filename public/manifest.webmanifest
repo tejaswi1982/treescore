@@ -1,0 +1,29 @@
+{
+  "name": "TreeScore — How green is your neighbourhood?",
+  "short_name": "TreeScore",
+  "description": "Measure India's urban green cover clearly, honestly and consistently. Starting with Mumbai.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f2e9",
+  "theme_color": "#1f3a2d",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

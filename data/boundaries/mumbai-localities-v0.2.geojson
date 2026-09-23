@@ -1,0 +1,132 @@
+{
+  "type": "FeatureCollection",
+  "name": "mumbai-localities-v0.2",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "localityId": "andheri-west-core",
+        "name": "Andheri West Core",
+        "parentLocality": "Andheri West",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "boundaryType": "TreeScore-defined locality analysis area",
+        "isOfficialBoundary": false,
+        "boundaryConfidence": "medium",
+        "measurementLabel": "Satellite-derived green cover estimate",
+        "methodNote": "Approximate analysis polygon created for TreeScore satellite-derived green-cover analysis. Not an official administrative boundary.",
+        "sourceNote": "Boundary drawn using visible locality context, major roads, coastline, railway/metro corridors, lake/park edges and commonly understood neighbourhood extent. Held west of the Western Railway line; represents the western Andheri core (Seven/Four Bungalows, DN Nagar, Azad Nagar, station-side west) and NOT the full Andheri West real-estate footprint or deep Lokhandwala/Oshiwara.",
+        "publicDisclaimer": "Locality boundaries are TreeScore-defined analysis areas, not official administrative boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [72.8180, 19.1370],
+            [72.8265, 19.1395],
+            [72.8350, 19.1380],
+            [72.8410, 19.1320],
+            [72.8420, 19.1245],
+            [72.8410, 19.1200],
+            [72.8355, 19.1192],
+            [72.8285, 19.1200],
+            [72.8225, 19.1212],
+            [72.8175, 19.1250],
+            [72.8155, 19.1315],
+            [72.8180, 19.1370]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "localityId": "powai-lake-urban-area",
+        "name": "Powai Lake + Urban Area",
+        "parentLocality": "Powai",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "boundaryType": "TreeScore-defined locality analysis area",
+        "isOfficialBoundary": false,
+        "boundaryConfidence": "medium",
+        "measurementLabel": "Satellite-derived green cover estimate",
+        "methodNote": "Approximate analysis polygon created for TreeScore satellite-derived green-cover analysis. Not an official administrative boundary.",
+        "sourceNote": "Tightened relative to v0.1 to focus on the Powai urban / lake-edge neighbourhood (Hiranandani area, lake-edge residential, JVLR-side urban fabric). Main Powai Lake water body excluded via inner ring. Deliberately excludes Vikhroli, Sanjay Gandhi National Park, Aarey and large institutional/forest green zones that inflated the v0.1 green-cover reading. Google Earth Engine water masking must still be applied as a backstop.",
+        "publicDisclaimer": "Locality boundaries are TreeScore-defined analysis areas, not official administrative boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [72.8905, 19.1295],
+            [72.8975, 19.1315],
+            [72.9050, 19.1305],
+            [72.9110, 19.1255],
+            [72.9120, 19.1190],
+            [72.9095, 19.1130],
+            [72.9035, 19.1100],
+            [72.8965, 19.1105],
+            [72.8910, 19.1145],
+            [72.8888, 19.1210],
+            [72.8895, 19.1260],
+            [72.8905, 19.1295]
+          ],
+          [
+            [72.9005, 19.1280],
+            [72.9075, 19.1270],
+            [72.9095, 19.1220],
+            [72.9055, 19.1185],
+            [72.8995, 19.1192],
+            [72.8972, 19.1238],
+            [72.9005, 19.1280]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "localityId": "juhu",
+        "name": "Juhu",
+        "parentLocality": "Juhu",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "boundaryType": "TreeScore-defined locality analysis area",
+        "isOfficialBoundary": false,
+        "boundaryConfidence": "medium",
+        "measurementLabel": "Satellite-derived green cover estimate",
+        "methodNote": "Approximate analysis polygon created for TreeScore satellite-derived green-cover analysis. Not an official administrative boundary.",
+        "sourceNote": "Conservative coastal polygon using the Arabian Sea beach as the western edge (tightened slightly eastward from v0.1 to keep dry sand/sea out of the land denominator) and the commonly understood Juhu residential/coastal neighbourhood. Avoids Vile Parle, Santacruz, Andheri West, Versova and airport land.",
+        "publicDisclaimer": "Locality boundaries are TreeScore-defined analysis areas, not official administrative boundaries."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [72.8255, 19.1170],
+            [72.8305, 19.1175],
+            [72.8350, 19.1135],
+            [72.8360, 19.1060],
+            [72.8350, 19.0980],
+            [72.8322, 19.0918],
+            [72.8278, 19.0910],
+            [72.8252, 19.0965],
+            [72.8245, 19.1050],
+            [72.8248, 19.1120],
+            [72.8255, 19.1170]
+          ]
+        ]
+      }
+    }
+  ]
+}

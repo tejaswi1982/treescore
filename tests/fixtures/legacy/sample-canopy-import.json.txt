@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "source": "gee-export",
+    "collection": "COPERNICUS/S2_SR_HARMONIZED",
+    "ndviThreshold": 0.4,
+    "seasonWindow": "december-february",
+    "generatedOn": "YYYY-MM-DD"
+  },
+  "records": [
+    { "localityId": "andheri-west", "year": 2016, "canopyPercent": 10.8 },
+    { "localityId": "andheri-west", "year": 2018, "canopyPercent": 10.1 },
+    { "localityId": "andheri-west", "year": 2020, "canopyPercent": 9.6 },
+    { "localityId": "andheri-west", "year": 2022, "canopyPercent": 9.1 },
+    { "localityId": "andheri-west", "year": 2024, "canopyPercent": 8.9 },
+    { "localityId": "andheri-west", "year": 2026, "canopyPercent": 8.7 },
+    { "localityId": "powai", "year": 2026, "canopyPercent": 23.0 }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+  "reviewStatus": "agent-visual-accepted-human-pending",
+  "aggregation": "Equal-weight mean of sample percentages; area-weighted alternative also provided",
+  "groups": [
+    {
+      "threshold": 0.2,
+      "green": {
+        "sampleCount": 3,
+        "meanPercent": 100,
+        "minPercent": 100,
+        "maxPercent": 100,
+        "areaWeightedPercent": 100
+      },
+      "non-green": {
+        "sampleCount": 4,
+        "meanPercent": 13.303838052672951,
+        "minPercent": 0,
+        "maxPercent": 29.06977029350537,
+        "areaWeightedPercent": 12.84162599447549
+      },
+      "mixed": {
+        "sampleCount": 3,
+        "meanPercent": 71.91263090732197,
+        "minPercent": 68.64647183501556,
+        "maxPercent": 73.7800206430792,
+        "areaWeightedPercent": 71.90589634306043
+      }
+    },
+    {
+      "threshold": 0.25,
+      "green": {
+        "sampleCount": 3,
+        "meanPercent": 100,
+        "minPercent": 100,
+        "maxPercent": 100,
+        "areaWeightedPercent": 100
+      },
+      "non-green": {
+        "sampleCount": 4,
+        "meanPercent": 3.120703497412519,
+        "minPercent": 0,
+        "maxPercent": 9.137781304646552,
+        "areaWeightedPercent": 3.7432815085710254
+      },
+      "mixed": {
+        "sampleCount": 3,
+        "meanPercent": 59.47823116081494,
+        "minPercent": 57.363745852868384,
+        "maxPercent": 63.08849551529227,
+        "areaWeightedPercent": 59.48567725325488
+      }
+    },
+    {
+      "threshold": 0.3,
+      "green": {
+        "sampleCount": 3,
+        "meanPercent": 100,
+        "minPercent": 100,
+        "maxPercent": 100,
+        "areaWeightedPercent": 100
+      },
+      "non-green": {
+        "sampleCount": 4,
+        "meanPercent": 0.699166659018288,
+        "minPercent": 0,
+        "maxPercent": 2.796666636073152,
+        "areaWeightedPercent": 0.8387947572427255
+      },
+      "mixed": {
+        "sampleCount": 3,
+        "meanPercent": 47.842772917050816,
+        "minPercent": 32.576749323248436,
+        "maxPercent": 61.97690046347246,
+        "areaWeightedPercent": 47.8715486435798
+      }
+    },
+    {
+      "threshold": 0.35,
+      "green": {
+        "sampleCount": 3,
+        "meanPercent": 100,
+        "minPercent": 100,
+        "maxPercent": 100,
+        "areaWeightedPercent": 100
+      },
+      "non-green": {
+        "sampleCount": 4,
+        "meanPercent": 0,
+        "minPercent": 0,
+        "maxPercent": 0,
+        "areaWeightedPercent": 0
+      },
+      "mixed": {
+        "sampleCount": 3,
+        "meanPercent": 36.634027304899085,
+        "minPercent": 20.657890385967328,
+        "maxPercent": 45.30296980730396,
+        "areaWeightedPercent": 36.651412480215825
+      }
+    },
+    {
+      "threshold": 0.4,
+      "green": {
+        "sampleCount": 3,
+        "meanPercent": 99.9917450858062,
+        "minPercent": 99.97523525741862,
+        "maxPercent": 100,
+        "areaWeightedPercent": 99.99418395351131
+      },
+      "non-green": {
+        "sampleCount": 4,
+        "meanPercent": 0,
+        "minPercent": 0,
+        "maxPercent": 0,
+        "areaWeightedPercent": 0
+      },
+      "mixed": {
+        "sampleCount": 3,
+        "meanPercent": 30.368044421119293,
+        "minPercent": 16.83113601939045,
+        "maxPercent": 38.67698900354459,
+        "areaWeightedPercent": 30.38477851785596
+      }
+    },
+    {
+      "threshold": 0.45,
+      "green": {
+        "sampleCount": 3,
+        "meanPercent": 99.9917450858062,
+        "minPercent": 99.97523525741862,
+        "maxPercent": 100,
+        "areaWeightedPercent": 99.99418395351131
+      },
+      "non-green": {
+        "sampleCount": 4,
+        "meanPercent": 0,
+        "minPercent": 0,
+        "maxPercent": 0,
+        "areaWeightedPercent": 0
+      },
+      "mixed": {
+        "sampleCount": 3,
+        "meanPercent": 21.60812190702727,
+        "minPercent": 4.9561388807143825,
+        "maxPercent": 32.661295274930744,
+        "areaWeightedPercent": 21.630436959602342
+      }
+    }
+  ],
+  "samples": [
+    {
+      "sampleId": "N1",
+      "sampleName": "Large roof interior",
+      "sampleClass": "large-roof",
+      "expectedType": "non-green",
+      "center": [
+        72.82896,
+        19.1296
+      ],
+      "widthMetersApprox": 60,
+      "heightMetersApprox": 60,
+      "notes": "Broad light roof interior including a roof seam; no visible vegetation inside the footprint. Adjacent tower shadows remain outside. Seasonal RGB is light grey and NDVI low.",
+      "sampleArea": 3572.3690274706073,
+      "validArea": 3572.3690274706073,
+      "greenAreas": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "greenPercents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ndvi": {
+        "p10": 0.03654080389768575,
+        "p50": 0.044221105527638194,
+        "p90": 0.0495907558979297
+      },
+      "insideBoundary": true
+    },
+    {
+      "sampleId": "G1",
+      "sampleName": "Green sports-ground interior",
+      "sampleClass": "green-ground",
+      "expectedType": "green",
+      "center": [
+        72.8355,
+        19.1291
+      ],
+      "widthMetersApprox": 40,
+      "heightMetersApprox": 40,
+      "notes": "Interior grass patch, moved west and shrunk away from the running track. Green in detailed imagery and seasonal RGB, positive spatially coherent NDVI. Grass, not a tree-canopy label.",
+      "sampleArea": 1582.7669562844671,
+      "validArea": 1582.7669562844671,
+      "greenAreas": [
+        1582.7669562844671,
+        1582.7669562844671,
+        1582.7669562844671,
+        1582.7669562844671,
+        1582.3749881220801,
+        1582.3749881220801
+      ],
+      "greenPercents": [
+        100,
+        100,
+        100,
+        100,
+        99.97523525741862,
+        99.97523525741862
+      ],
+      "ndvi": {
+        "p10": 0.5712742980561555,
+        "p50": 0.5903871829105474,
+        "p90": 0.5971769815418024
+      },
+      "insideBoundary": true
+    },
+    {
+      "sampleId": "G2",
+      "sampleName": "Tree-heavy compound interior",
+      "sampleClass": "compound-canopy",
+      "expectedType": "green",
+      "center": [
+        72.83065,
+        19.1263
+      ],
+      "widthMetersApprox": 40,
+      "heightMetersApprox": 40,
+      "notes": "Contiguous textured tree crowns between buildings and transport corridor. Shrunken and shifted from the initial building-edge footprint. Seasonal RGB and NDVI confirm vegetation response. Compound ownership/use is not verified.",
+      "sampleArea": 1583.5416892855774,
+      "validArea": 1583.5416892855774,
+      "greenAreas": [
+        1583.5416892855774,
+        1583.5416892855774,
+        1583.5416892855774,
+        1583.5416892855774,
+        1583.5416892855774,
+        1583.5416892855774
+      ],
+      "greenPercents": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "ndvi": {
+        "p10": 0.597354278627532,
+        "p50": 0.6571428571428571,
+        "p90": 0.6719817767653758
+      },
+      "insideBoundary": true
+    },
+    {
+      "sampleId": "G3",
+      "sampleName": "Dense western woody vegetation",
+      "sampleClass": "dense-canopy",
+      "expectedType": "green",
+      "center": [
+        72.8206,
+        19.1331
+      ],
+      "widthMetersApprox": 60,
+      "heightMetersApprox": 60,
+      "notes": "Continuous dense woody vegetation texture, shifted inward from a scrub/bare-ground edge. No visible water or buildings in the footprint. Seasonal RGB/NDVI coherent. Species, canopy height and possible wetland vegetation type are not established.",
+      "sampleArea": 3573.1175806382125,
+      "validArea": 3573.1175806382125,
+      "greenAreas": [
+        3573.1175806382125,
+        3573.1175806382125,
+        3573.1175806382125,
+        3573.1175806382125,
+        3573.1175806382125,
+        3573.1175806382125
+      ],
+      "greenPercents": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "ndvi": {
+        "p10": 0.47078280044101434,
+        "p50": 0.5804794520547946,
+        "p90": 0.6174055829228243
+      },
+      "insideBoundary": true
+    },
+    {
+      "sampleId": "N2",
+      "sampleName": "Roof-block interior",
+      "sampleClass": "roof-block",
+      "expectedType": "non-green",
+      "center": [
+        72.83432,
+        19.13332
+      ],
+      "widthMetersApprox": 60,
+      "heightMetersApprox": 60,
+      "notes": "Bright contiguous roof surfaces with dark roof fixtures; boundary kept off surrounding trees. Seasonal RGB grey and NDVI low.",
+      "sampleArea": 3573.95989891501,
+      "validArea": 3573.95989891501,
+      "greenAreas": [
+        304.558792144177,
+        119.550126767626,
+        99.95174407958984,
+        0,
+        0,
+        0
+      ],
+      "greenPercents": [
+        8.521606306680598,
+        3.345032685003524,
+        2.796666636073152,
+        0,
+        0,
+        0
+      ],
+      "ndvi": {
+        "p10": 0.1388101983002833,
+        "p50": 0.1646063760572544,
+        "p90": 0.19611206403659234
+      },
+      "insideBoundary": true
+    },
+    {
+      "sampleId": "N3",
+      "sampleName": "Clear transport-surface strip",
+      "sampleClass": "transport-surface",
+      "expectedType": "non-green",
+      "center": [
+        72.8288,
+        19.13195
+      ],
+      "widthMetersApprox": 60,
+      "heightMetersApprox": 20,
+      "notes": "Narrow elongated strip across clear transport infrastructure. Replaces a tower-shadowed proposal and is shifted south of the roadside canopy edge. Only about two native 10 m pixels wide; alignment sensitivity is a limitation.",
+      "sampleArea": 1196.6689659866631,
+      "validArea": 1196.6689659866631,
+      "greenAreas": [
+        186.96726738424863,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "greenPercents": [
+        15.623975610505836,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ndvi": {
+        "p10": 0.08863920099875156,
+        "p50": 0.12563840653728295,
+        "p90": 0.24326635314236852
+      },
+      "insideBoundary": true
+    },
+    {
+      "sampleId": "M1",
+      "sampleName": "Residential roof and roadside canopy",
+      "sampleClass": "residential-trees",
+      "expectedType": "mixed",
+      "center": [
+        72.8248,
+        19.1304
+      ],
+      "widthMetersApprox": 60,
+      "heightMetersApprox": 60,
+      "notes": "Visible canopy in the upper part and built surface/roof in the lower part. Seasonal RGB and NDVI show corresponding spatial mixture. No assumed numerical target green percentage.",
+      "sampleArea": 3596.653155338063,
+      "validArea": 3596.653155338063,
+      "greenAreas": [
+        2468.9754952823414,
+        2269.074364606072,
+        2229.0941461002126,
+        1629.3906930362477,
+        1391.0771453857421,
+        1174.7135070800782
+      ],
+      "greenPercents": [
+        68.64647183501556,
+        63.08849551529227,
+        61.97690046347246,
+        45.30296980730396,
+        38.67698900354459,
+        32.661295274930744
+      ],
+      "ndvi": {
+        "p10": 0.08310700706137969,
+        "p50": 0.33782645324347094,
+        "p90": 0.5645088275237664
+      },
+      "insideBoundary": true
+    },
+    {
+      "sampleId": "M2",
+      "sampleName": "Low-rise buildings with scattered trees",
+      "sampleClass": "buildings-gardens",
+      "expectedType": "mixed",
+      "center": [
+        72.83385,
+        19.129
+      ],
+      "widthMetersApprox": 60,
+      "heightMetersApprox": 60,
+      "notes": "Small roofs, lanes and scattered tree patches. Replaces a high-rise/shadow-dominated proposal. Garden ownership or formal park status not inferred from labels; seasonal NDVI is heterogeneous.",
+      "sampleArea": 3574.7415779562552,
+      "validArea": 3574.7415779562552,
+      "greenAreas": [
+        2620.693105899586,
+        2072.722823647892,
+        1164.5346028047447,
+        738.4661967558019,
+        601.6696173275218,
+        177.1691572301528
+      ],
+      "greenPercents": [
+        73.31140024387116,
+        57.982452114284165,
+        32.576749323248436,
+        20.657890385967328,
+        16.83113601939045,
+        4.9561388807143825
+      ],
+      "ndvi": {
+        "p10": 0.16436781609195403,
+        "p50": 0.27672253258845436,
+        "p90": 0.4419475655430712
+      },
+      "insideBoundary": true
+    },
+    {
+      "sampleId": "M3",
+      "sampleName": "Tree-lined low-rise compound",
+      "sampleClass": "mixed-urban-fabric",
+      "expectedType": "mixed",
+      "center": [
+        72.8252,
+        19.1247
+      ],
+      "widthMetersApprox": 60,
+      "heightMetersApprox": 60,
+      "notes": "Low-rise roofs with surrounding trees and open compound surfaces. Replaces a pond candidate. Seasonal RGB/NDVI show both built and vegetated components.",
+      "sampleArea": 3574.3126585418104,
+      "validArea": 3574.3126585418104,
+      "greenAreas": [
+        2637.1286173203407,
+        2050.3596294328277,
+        1750.5077922746248,
+        1570.5966503068514,
+        1272.31262847302,
+        972.4607989442114
+      ],
+      "greenPercents": [
+        73.7800206430792,
+        57.363745852868384,
+        48.974668964431565,
+        43.941221721425954,
+        35.59600824042285,
+        27.206931565436697
+      ],
+      "ndvi": {
+        "p10": 0.16459197786998617,
+        "p50": 0.2995689655172414,
+        "p90": 0.5705695083126989
+      },
+      "insideBoundary": true
+    },
+    {
+      "sampleId": "N4",
+      "sampleName": "Dense low-rise built-up block",
+      "sampleClass": "dense-built-up",
+      "expectedType": "non-green",
+      "center": [
+        72.82037,
+        19.13418
+      ],
+      "widthMetersApprox": 60,
+      "heightMetersApprox": 60,
+      "notes": "Tightly packed small roofs and alleys, avoiding surrounding vegetation. No broad obscuring shadow visible; seasonal RGB heterogeneous grey and NDVI low.",
+      "sampleArea": 3573.116653711656,
+      "validArea": 3573.116653711656,
+      "greenAreas": [
+        1038.6968035529642,
+        326.50358557607615,
+        0,
+        0,
+        0,
+        0
+      ],
+      "greenPercents": [
+        29.06977029350537,
+        9.137781304646552,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ndvi": {
+        "p10": 0.12247071352502663,
+        "p50": 0.1744868035190616,
+        "p90": 0.23709677419354838
+      },
+      "insideBoundary": true
+    }
+  ]
+}

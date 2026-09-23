@@ -1,0 +1,534 @@
+{
+  "type": "FeatureCollection",
+  "name": "juhu-v0.3-calibration-reference-areas",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "JH-G01",
+        "sampleName": "Northwest canopy cluster",
+        "sampleClass": "green",
+        "expectedType": "green",
+        "notes": "Compact, visibly tree-dominant patch; away from beach, water, shadows and the boundary edge.",
+        "sampleType": "green",
+        "observation": "Compact, visibly tree-dominant patch; away from beach, water, shadows and the boundary edge.",
+        "reviewStatus": "visually-reviewed-accepted",
+        "localityId": "juhu",
+        "boundaryVersion": "juhu-v0.3",
+        "analysisStart": "2025-11-01",
+        "analysisEnd": "2026-02-28"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.82605,
+              19.11583
+            ],
+            [
+              72.82630999999999,
+              19.11583
+            ],
+            [
+              72.82630999999999,
+              19.116049999999998
+            ],
+            [
+              72.82605,
+              19.116049999999998
+            ],
+            [
+              72.82605,
+              19.11583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "JH-G02",
+        "sampleName": "Central-west tree canopy",
+        "sampleClass": "green",
+        "expectedType": "green",
+        "notes": "Dense interior canopy visible in RGB and as a strong continuous NDVI response.",
+        "sampleType": "green",
+        "observation": "Dense interior canopy visible in RGB and as a strong continuous NDVI response.",
+        "reviewStatus": "visually-reviewed-accepted",
+        "localityId": "juhu",
+        "boundaryVersion": "juhu-v0.3",
+        "analysisStart": "2025-11-01",
+        "analysisEnd": "2026-02-28"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.82859,
+              19.11163
+            ],
+            [
+              72.82885,
+              19.11163
+            ],
+            [
+              72.82885,
+              19.11185
+            ],
+            [
+              72.82859,
+              19.11185
+            ],
+            [
+              72.82859,
+              19.11163
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "JH-G03",
+        "sampleName": "Central-east tree canopy",
+        "sampleClass": "green",
+        "expectedType": "green",
+        "notes": "Tree-dominant interior patch with no water, beach or boundary-edge contamination.",
+        "sampleType": "green",
+        "observation": "Tree-dominant interior patch with no water, beach or boundary-edge contamination.",
+        "reviewStatus": "visually-reviewed-accepted",
+        "localityId": "juhu",
+        "boundaryVersion": "juhu-v0.3",
+        "analysisStart": "2025-11-01",
+        "analysisEnd": "2026-02-28"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.83295,
+              19.11066
+            ],
+            [
+              72.83321,
+              19.11066
+            ],
+            [
+              72.83321,
+              19.110879999999998
+            ],
+            [
+              72.83295,
+              19.110879999999998
+            ],
+            [
+              72.83295,
+              19.11066
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "JH-G04",
+        "sampleName": "North-central green compound",
+        "sampleClass": "green",
+        "expectedType": "green",
+        "notes": "Strongly vegetated compound verified against RGB, NDVI and candidate masks.",
+        "sampleType": "green",
+        "observation": "Strongly vegetated compound verified against RGB, NDVI and candidate masks.",
+        "reviewStatus": "visually-reviewed-accepted",
+        "localityId": "juhu",
+        "boundaryVersion": "juhu-v0.3",
+        "analysisStart": "2025-11-01",
+        "analysisEnd": "2026-02-28"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.82937,
+              19.112190000000002
+            ],
+            [
+              72.82963,
+              19.112190000000002
+            ],
+            [
+              72.82963,
+              19.11241
+            ],
+            [
+              72.82937,
+              19.11241
+            ],
+            [
+              72.82937,
+              19.112190000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "JH-G05",
+        "sampleName": "West-central canopy compound",
+        "sampleClass": "green",
+        "expectedType": "green",
+        "notes": "Compact tree-heavy compound with sustained response across the candidate range.",
+        "sampleType": "green",
+        "observation": "Compact tree-heavy compound with sustained response across the candidate range.",
+        "reviewStatus": "visually-reviewed-accepted",
+        "localityId": "juhu",
+        "boundaryVersion": "juhu-v0.3",
+        "analysisStart": "2025-11-01",
+        "analysisEnd": "2026-02-28"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.82737,
+              19.10939
+            ],
+            [
+              72.82763,
+              19.10939
+            ],
+            [
+              72.82763,
+              19.10961
+            ],
+            [
+              72.82737,
+              19.10961
+            ],
+            [
+              72.82737,
+              19.10939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "JH-N01",
+        "sampleName": "Northwest roof and paving",
+        "sampleClass": "non-green",
+        "expectedType": "non-green",
+        "notes": "Bright roof and paving sample; avoids adjacent tree crowns and shadows.",
+        "sampleType": "built-up",
+        "observation": "Bright roof and paving sample; avoids adjacent tree crowns and shadows.",
+        "reviewStatus": "visually-reviewed-accepted",
+        "localityId": "juhu",
+        "boundaryVersion": "juhu-v0.3",
+        "analysisStart": "2025-11-01",
+        "analysisEnd": "2026-02-28"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.82753,
+              19.11437
+            ],
+            [
+              72.82779,
+              19.11437
+            ],
+            [
+              72.82779,
+              19.11459
+            ],
+            [
+              72.82753,
+              19.11459
+            ],
+            [
+              72.82753,
+              19.11437
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "JH-N02",
+        "sampleName": "North-central hardscape",
+        "sampleClass": "non-green",
+        "expectedType": "non-green",
+        "notes": "Clearly non-vegetated roof and paved surface after closer RGB/NDVI review.",
+        "sampleType": "built-up",
+        "observation": "Clearly non-vegetated roof and paved surface after closer RGB/NDVI review.",
+        "reviewStatus": "visually-reviewed-accepted",
+        "localityId": "juhu",
+        "boundaryVersion": "juhu-v0.3",
+        "analysisStart": "2025-11-01",
+        "analysisEnd": "2026-02-28"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.83046,
+              19.11289
+            ],
+            [
+              72.83072,
+              19.11289
+            ],
+            [
+              72.83072,
+              19.11311
+            ],
+            [
+              72.83046,
+              19.11311
+            ],
+            [
+              72.83046,
+              19.11289
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "JH-N03",
+        "sampleName": "Northeast large roof and paving",
+        "sampleClass": "non-green",
+        "expectedType": "non-green",
+        "notes": "Large bright roof and paved surface, kept inside the polygon and away from edges.",
+        "sampleType": "built-up",
+        "observation": "Large bright roof and paved surface, kept inside the polygon and away from edges.",
+        "reviewStatus": "visually-reviewed-accepted",
+        "localityId": "juhu",
+        "boundaryVersion": "juhu-v0.3",
+        "analysisStart": "2025-11-01",
+        "analysisEnd": "2026-02-28"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.83401,
+              19.11373
+            ],
+            [
+              72.83427,
+              19.11373
+            ],
+            [
+              72.83427,
+              19.11395
+            ],
+            [
+              72.83401,
+              19.11395
+            ],
+            [
+              72.83401,
+              19.11373
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "JH-N04",
+        "sampleName": "Western compact roofs",
+        "sampleClass": "non-green",
+        "expectedType": "non-green",
+        "notes": "Compact roof cluster with no material vegetation inside the final sample box.",
+        "sampleType": "built-up",
+        "observation": "Compact roof cluster with no material vegetation inside the final sample box.",
+        "reviewStatus": "visually-reviewed-accepted",
+        "localityId": "juhu",
+        "boundaryVersion": "juhu-v0.3",
+        "analysisStart": "2025-11-01",
+        "analysisEnd": "2026-02-28"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.82673,
+              19.11292
+            ],
+            [
+              72.82699,
+              19.11292
+            ],
+            [
+              72.82699,
+              19.113139999999998
+            ],
+            [
+              72.82673,
+              19.113139999999998
+            ],
+            [
+              72.82673,
+              19.11292
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "JH-M01",
+        "sampleName": "East-central landscaped fabric",
+        "sampleClass": "mixed",
+        "expectedType": "mixed",
+        "notes": "Buildings and hardscape interspersed with established vegetation.",
+        "sampleType": "mixed",
+        "observation": "Buildings and hardscape interspersed with established vegetation.",
+        "reviewStatus": "visually-reviewed-accepted",
+        "localityId": "juhu",
+        "boundaryVersion": "juhu-v0.3",
+        "analysisStart": "2025-11-01",
+        "analysisEnd": "2026-02-28"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.83187,
+              19.112190000000002
+            ],
+            [
+              72.83212999999999,
+              19.112190000000002
+            ],
+            [
+              72.83212999999999,
+              19.11241
+            ],
+            [
+              72.83187,
+              19.11241
+            ],
+            [
+              72.83187,
+              19.112190000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "JH-M02",
+        "sampleName": "Southeast buildings and gardens",
+        "sampleClass": "mixed",
+        "expectedType": "mixed",
+        "notes": "Mixed roofs, garden vegetation and roadside trees away from the corrected scope edge.",
+        "sampleType": "mixed",
+        "observation": "Mixed roofs, garden vegetation and roadside trees away from the corrected scope edge.",
+        "reviewStatus": "visually-reviewed-accepted",
+        "localityId": "juhu",
+        "boundaryVersion": "juhu-v0.3",
+        "analysisStart": "2025-11-01",
+        "analysisEnd": "2026-02-28"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.83237,
+              19.107390000000002
+            ],
+            [
+              72.83263,
+              19.107390000000002
+            ],
+            [
+              72.83263,
+              19.10761
+            ],
+            [
+              72.83237,
+              19.10761
+            ],
+            [
+              72.83237,
+              19.107390000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "JH-M03",
+        "sampleName": "South-central low-rise mix",
+        "sampleClass": "mixed",
+        "expectedType": "mixed",
+        "notes": "Low-rise urban fabric with a moderate, threshold-sensitive vegetation fraction.",
+        "sampleType": "mixed",
+        "observation": "Low-rise urban fabric with a moderate, threshold-sensitive vegetation fraction.",
+        "reviewStatus": "visually-reviewed-accepted",
+        "localityId": "juhu",
+        "boundaryVersion": "juhu-v0.3",
+        "analysisStart": "2025-11-01",
+        "analysisEnd": "2026-02-28"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.82937,
+              19.10839
+            ],
+            [
+              72.82963,
+              19.10839
+            ],
+            [
+              72.82963,
+              19.10861
+            ],
+            [
+              72.82937,
+              19.10861
+            ],
+            [
+              72.82937,
+              19.10839
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

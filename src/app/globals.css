@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  /* TreeScore palette — warm, civic, restrained */
+  --color-paper: #f5f2e9; /* warm off-white canvas */
+  --color-cream: #fbf9f2; /* raised card surface */
+  --color-sand: #ede8da; /* quiet fill */
+  --color-leaf: #e3e9d9; /* pale leaf tint */
+  --color-line: #e0dac9; /* hairline borders */
+  --color-forest: #1f3a2d; /* deep forest green */
+  --color-forest-deep: #122119; /* footer / hero base */
+  --color-moss: #6b7f6a;
+  --color-moss-deep: #44523f;
+  --color-moss-soft: #93a48d;
+  --color-ink: #26271f; /* charcoal text */
+  --color-mist: #84857a; /* soft grey */
+  --color-sun: #c99b5f; /* warm sunlight accent */
+  --color-bark: #8a7355; /* muted low-canopy tone */
+
+  --font-serif: var(--font-fraunces), "Georgia", serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:focus-visible {
+  outline: 3px solid #6b7f6a;
+  outline-offset: 4px;
+}
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 1rem;
+  z-index: 1000;
+  padding: 1rem;
+  background: #fbf9f2;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-leaf);
+  color: var(--color-forest);
+}
+
+/* Letterspaced uppercase micro-label, used everywhere in the system */
+.kicker {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* Iconic score numerals */
+.score-numeral {
+  font-family: var(--font-serif);
+  font-weight: 350;
+  font-variation-settings: "opsz" 144;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+}

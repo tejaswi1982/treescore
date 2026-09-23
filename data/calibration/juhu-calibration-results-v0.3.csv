@@ -1,0 +1,73 @@
+sampleId,sampleName,sampleClass,expectedType,reviewStatus,threshold,sampleArea,classifiedGreenArea,classifiedGreenPercent
+JH-G01,Northwest canopy cluster,green,green,visually-reviewed-accepted,0.2,661.242625576842,661.242625576842,100
+JH-G01,Northwest canopy cluster,green,green,visually-reviewed-accepted,0.25,661.242625576842,661.242625576842,100
+JH-G01,Northwest canopy cluster,green,green,visually-reviewed-accepted,0.3,661.242625576842,661.242625576842,100
+JH-G01,Northwest canopy cluster,green,green,visually-reviewed-accepted,0.35,661.242625576842,594.2168444165995,89.8636629630808
+JH-G01,Northwest canopy cluster,green,green,visually-reviewed-accepted,0.4,661.242625576842,594.2168444165995,89.8636629630808
+JH-G01,Northwest canopy cluster,green,green,visually-reviewed-accepted,0.45,661.242625576842,409.60198265524474,61.94427987728772
+JH-G02,Central-west tree canopy,green,green,visually-reviewed-accepted,0.2,682.4106846828088,682.4106846828088,100
+JH-G02,Central-west tree canopy,green,green,visually-reviewed-accepted,0.25,682.4106846828088,682.4106846828088,100
+JH-G02,Central-west tree canopy,green,green,visually-reviewed-accepted,0.3,682.4106846828088,682.4106846828088,100
+JH-G02,Central-west tree canopy,green,green,visually-reviewed-accepted,0.35,682.4106846828088,669.8678126316446,98.16197601639338
+JH-G02,Central-west tree canopy,green,green,visually-reviewed-accepted,0.4,682.4106846828088,657.3249396230661,96.32395189248791
+JH-G02,Central-west tree canopy,green,green,visually-reviewed-accepted,0.45,682.4106846828088,598.1382623410693,87.6507762505345
+JH-G03,Central-east tree canopy,green,green,visually-reviewed-accepted,0.2,648.3130913528743,648.3130913528743,100
+JH-G03,Central-east tree canopy,green,green,visually-reviewed-accepted,0.25,648.3130913528743,648.3130913528743,100
+JH-G03,Central-east tree canopy,green,green,visually-reviewed-accepted,0.3,648.3130913528743,626.3629546819949,96.61426909873519
+JH-G03,Central-east tree canopy,green,green,visually-reviewed-accepted,0.35,648.3130913528743,564.0402356914447,87.00121025081071
+JH-G03,Central-east tree canopy,green,green,visually-reviewed-accepted,0.4,648.3130913528743,529.9391305063286,81.74123545777434
+JH-G03,Central-east tree canopy,green,green,visually-reviewed-accepted,0.45,648.3130913528743,467.6164067586262,72.12817587607597
+JH-G04,North-central green compound,green,green,visually-reviewed-accepted,0.2,678.491677647011,636.5514012056238,93.81860119687322
+JH-G04,North-central green compound,green,green,visually-reviewed-accepted,0.25,678.491677647011,611.4656322105258,90.12131649588841
+JH-G04,North-central green compound,green,green,visually-reviewed-accepted,0.3,678.491677647011,565.9976774627087,83.41998820465592
+JH-G04,North-central green compound,green,green,visually-reviewed-accepted,0.35,678.491677647011,565.9976774627087,83.41998820465592
+JH-G04,North-central green compound,green,green,visually-reviewed-accepted,0.4,678.491677647011,360.99988214829386,53.206235837738014
+JH-G04,North-central green compound,green,green,visually-reviewed-accepted,0.45,678.491677647011,360.99988214829386,53.206235837738014
+JH-G05,West-central canopy compound,green,green,visually-reviewed-accepted,0.2,683.1936093199487,683.1936093199488,100
+JH-G05,West-central canopy compound,green,green,visually-reviewed-accepted,0.25,683.1936093199487,683.1936093199488,100
+JH-G05,West-central canopy compound,green,green,visually-reviewed-accepted,0.3,683.1936093199487,585.5945144952512,85.71428457566405
+JH-G05,West-central canopy compound,green,green,visually-reviewed-accepted,0.35,683.1936093199487,499.36239597096164,73.0923693018773
+JH-G05,West-central canopy compound,green,green,visually-reviewed-accepted,0.4,683.1936093199487,449.5829447129194,65.80608169921767
+JH-G05,West-central canopy compound,green,green,visually-reviewed-accepted,0.45,683.1936093199487,199.90174102783203,29.259896214019676
+JH-N01,Northwest roof and paving,non-green,non-green,visually-reviewed-accepted,0.2,679.666116811715,77.21696175967946,11.361013863969115
+JH-N01,Northwest roof and paving,non-green,non-green,visually-reviewed-accepted,0.25,679.666116811715,77.21696175967946,11.361013863969115
+JH-N01,Northwest roof and paving,non-green,non-green,visually-reviewed-accepted,0.3,679.666116811715,0,0
+JH-N01,Northwest roof and paving,non-green,non-green,visually-reviewed-accepted,0.35,679.666116811715,0,0
+JH-N01,Northwest roof and paving,non-green,non-green,visually-reviewed-accepted,0.4,679.666116811715,0,0
+JH-N01,Northwest roof and paving,non-green,non-green,visually-reviewed-accepted,0.45,679.666116811715,0,0
+JH-N02,North-central hardscape,non-green,non-green,visually-reviewed-accepted,0.2,660.8540925269033,0,0
+JH-N02,North-central hardscape,non-green,non-green,visually-reviewed-accepted,0.25,660.8540925269033,0,0
+JH-N02,North-central hardscape,non-green,non-green,visually-reviewed-accepted,0.3,660.8540925269033,0,0
+JH-N02,North-central hardscape,non-green,non-green,visually-reviewed-accepted,0.35,660.8540925269033,0,0
+JH-N02,North-central hardscape,non-green,non-green,visually-reviewed-accepted,0.4,660.8540925269033,0,0
+JH-N02,North-central hardscape,non-green,non-green,visually-reviewed-accepted,0.45,660.8540925269033,0,0
+JH-N03,Northeast large roof and paving,non-green,non-green,visually-reviewed-accepted,0.2,648.3139447978899,61.14690731272979,9.431681641799663
+JH-N03,Northeast large roof and paving,non-green,non-green,visually-reviewed-accepted,0.25,648.3139447978899,0,0
+JH-N03,Northeast large roof and paving,non-green,non-green,visually-reviewed-accepted,0.3,648.3139447978899,0,0
+JH-N03,Northeast large roof and paving,non-green,non-green,visually-reviewed-accepted,0.35,648.3139447978899,0,0
+JH-N03,Northeast large roof and paving,non-green,non-green,visually-reviewed-accepted,0.4,648.3139447978899,0,0
+JH-N03,Northeast large roof and paving,non-green,non-green,visually-reviewed-accepted,0.45,648.3139447978899,0,0
+JH-N04,Western compact roofs,non-green,non-green,visually-reviewed-accepted,0.2,661.6351017671473,0,0
+JH-N04,Western compact roofs,non-green,non-green,visually-reviewed-accepted,0.25,661.6351017671473,0,0
+JH-N04,Western compact roofs,non-green,non-green,visually-reviewed-accepted,0.3,661.6351017671473,0,0
+JH-N04,Western compact roofs,non-green,non-green,visually-reviewed-accepted,0.35,661.6351017671473,0,0
+JH-N04,Western compact roofs,non-green,non-green,visually-reviewed-accepted,0.4,661.6351017671473,0,0
+JH-N04,Western compact roofs,non-green,non-green,visually-reviewed-accepted,0.45,661.6351017671473,0,0
+JH-M01,East-central landscaped fabric,mixed,mixed,visually-reviewed-accepted,0.2,665.1668382532456,485.25431727989036,72.9522714262466
+JH-M01,East-central landscaped fabric,mixed,mixed,visually-reviewed-accepted,0.25,665.1668382532456,485.25431727989036,72.9522714262466
+JH-M01,East-central landscaped fabric,mixed,mixed,visually-reviewed-accepted,0.3,665.1668382532456,385.30290889366006,57.92575437246401
+JH-M01,East-central landscaped fabric,mixed,mixed,visually-reviewed-accepted,0.35,665.1668382532456,385.30290889366006,57.92575437246401
+JH-M01,East-central landscaped fabric,mixed,mixed,visually-reviewed-accepted,0.4,665.1668382532456,359.82510280235147,54.0954662964357
+JH-M01,East-central landscaped fabric,mixed,mixed,visually-reviewed-accepted,0.45,665.1668382532456,272.41660958084407,40.95462881105451
+JH-M02,Southeast buildings and gardens,mixed,mixed,visually-reviewed-accepted,0.2,649.4885174321194,487.21437946394377,75.01508747071337
+JH-M02,Southeast buildings and gardens,mixed,mixed,visually-reviewed-accepted,0.25,649.4885174321194,349.6341215545056,53.83222523114849
+JH-M02,Southeast buildings and gardens,mixed,mixed,visually-reviewed-accepted,0.3,649.4885174321194,294.3668468998928,45.322871613455156
+JH-M02,Southeast buildings and gardens,mixed,mixed,visually-reviewed-accepted,0.35,649.4885174321194,67.81020223580157,10.440554438730116
+JH-M02,Southeast buildings and gardens,mixed,mixed,visually-reviewed-accepted,0.4,649.4885174321194,67.81020223580157,10.440554438730116
+JH-M02,Southeast buildings and gardens,mixed,mixed,visually-reviewed-accepted,0.45,649.4885174321194,0,0
+JH-M03,South-central low-rise mix,mixed,mixed,visually-reviewed-accepted,0.2,659.2853457880955,433.51341041116143,65.75505024959244
+JH-M03,South-central low-rise mix,mixed,mixed,visually-reviewed-accepted,0.25,659.2853457880955,159.5298017614028,24.197383239377835
+JH-M03,South-central low-rise mix,mixed,mixed,visually-reviewed-accepted,0.3,659.2853457880955,155.61015125349456,23.60285303588563
+JH-M03,South-central low-rise mix,mixed,mixed,visually-reviewed-accepted,0.35,659.2853457880955,125.03687029071884,18.965516386725152
+JH-M03,South-central low-rise mix,mixed,mixed,visually-reviewed-accepted,0.4,659.2853457880955,25.085767080269612,3.8049938832301247
+JH-M03,South-central low-rise mix,mixed,mixed,visually-reviewed-accepted,0.45,659.2853457880955,25.085767080269612,3.8049938832301247

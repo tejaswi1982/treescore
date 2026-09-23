@@ -1,0 +1,56 @@
+{
+  "localityId": "juhu",
+  "localityName": "Juhu",
+  "boundaryVersion": "juhu-v0.3",
+  "analysisStart": "2025-11-01",
+  "analysisEndExclusive": "2026-03-01",
+  "analysisEndInclusive": "2026-02-28",
+  "collection": "COPERNICUS/S2_SR_HARMONIZED",
+  "sceneCount": 51,
+  "cloudMaskMethod": "Scene cloudiness <= 60%; Cloud Score+ cs_cdf >= 0.60; valid B2/B3/B4/B8 masks; minimum 3 clear observations; median composite",
+  "waterMaskMethod": "Composite NDWI > 0 excluded from the valid-land denominator",
+  "scaleMeters": 10,
+  "crs": "EPSG:32643",
+  "methodologyVersion": "level1-1.0",
+  "polygonAreaSqKm": 1.8982683086266041,
+  "areaWithMinimumObservationsSqKm": 1.8924283366256724,
+  "excludedWaterSqKm": 0.030772249793617392,
+  "validLandAreaSqKm": 1.861656086832055,
+  "coveragePercent": 98.07128309374805,
+  "runId": "juhu-sr-dry2026-v0.3-candidates-v1",
+  "savedEarthEngineScript": "juhu-v0-3-dry-season-2026-candidates",
+  "candidateResults": [
+    {
+      "threshold": 0.2,
+      "greenAreaSqKm": 1.2728224033726419,
+      "greenCoverPercent": 68.370437073508
+    },
+    {
+      "threshold": 0.25,
+      "greenAreaSqKm": 1.0848209703432858,
+      "greenCoverPercent": 58.27182464132272
+    },
+    {
+      "threshold": 0.3,
+      "greenAreaSqKm": 0.9087353412322402,
+      "greenCoverPercent": 48.813276934442705
+    },
+    {
+      "threshold": 0.35,
+      "greenAreaSqKm": 0.7363043771281823,
+      "greenCoverPercent": 39.55104180284649
+    },
+    {
+      "threshold": 0.4,
+      "greenAreaSqKm": 0.5780112546663769,
+      "greenCoverPercent": 31.048229517513505
+    },
+    {
+      "threshold": 0.45,
+      "greenAreaSqKm": 0.43047992036153765,
+      "greenCoverPercent": 23.123493292151352
+    }
+  ],
+  "productionEligible": false,
+  "notes": "Real Earth Engine results for the reviewed Juhu v0.3 boundary. Candidate values replace v0.2 for calibration; no threshold is approved and no production export/import has run."
+}

@@ -1,0 +1,13 @@
+{
+  "inputSha256": "c5246939542f7c2f04325e553c1aac0d22c527a24c23b6347f444c0dd8708de7",
+  "reviewer": "TreeScore project owner (explicit approval in task); final export checked by Codex",
+  "reviewedAt": "2026-09-12",
+  "approvalDateLocal": "2026-09-13",
+  "approvalTimezone": "Asia/Calcutta",
+  "notes": "Project owner explicitly approved NDVI >= 0.35 and publication for Andheri West Core v0.2 only, Nov 2025-Feb 2026, current SR/Cloud Score+/minimum observation/water setup and unchanged calibration samples. reviewedAt uses UTC date; local approval date is recorded separately. Final CSV downloaded directly from GEE and its calculated green area/valid land/percentage, settings and scene IDs checked. Beta limitations and 0.30-0.40 sensitivity preserved. No field validation claimed; no ranking/historical/other-locality approval.",
+  "boundaryReviewed": true,
+  "calibrationReviewed": true,
+  "cloudWaterReviewed": true,
+  "thresholdDecisionId": "andheri-sr-dry2026-v1",
+  "publishableRanking": false
+}

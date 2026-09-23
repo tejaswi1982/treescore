@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+.env*
+*.tsbuildinfo
+.DS_Store
+tmp/
+*.tmp
+.claude/
+Screenshots from Lovable/
+images from Google Earth Code Editor/

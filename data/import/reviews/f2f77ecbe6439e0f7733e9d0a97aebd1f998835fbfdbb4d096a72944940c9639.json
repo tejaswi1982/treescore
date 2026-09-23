@@ -1,0 +1,11 @@
+{
+  "inputSha256": "f2f77ecbe6439e0f7733e9d0a97aebd1f998835fbfdbb4d096a72944940c9639",
+  "reviewer": "TreeScore project owner",
+  "reviewedAt": "2026-09-23",
+  "notes": "Juhu v0.3 boundary, RGB, NDVI, Cloud Score+, valid coverage, coastal water handling, twelve reference polygons, threshold sensitivity and the completed final Earth Engine export were reviewed. NDVI >= 0.30 was explicitly approved for this scoped beta measurement only.",
+  "boundaryReviewed": true,
+  "calibrationReviewed": true,
+  "cloudWaterReviewed": true,
+  "thresholdDecisionId": "juhu-sr-dry2026-v0.3-v1",
+  "publishableRanking": false
+}

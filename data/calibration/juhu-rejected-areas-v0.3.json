@@ -1,0 +1,33 @@
+{
+  "localityId": "juhu",
+  "boundaryVersion": "juhu-v0.3",
+  "analysisStart": "2025-11-01",
+  "analysisEnd": "2026-02-28",
+  "rejectedSamples": [
+    {
+      "sampleId": "JH-R01",
+      "sampleName": "Lagoon edge",
+      "reason": "Rejected because water-edge and wet-soil mixed pixels make the intended class ambiguous."
+    },
+    {
+      "sampleId": "JH-R02",
+      "sampleName": "Aerodrome fringe",
+      "reason": "Rejected because it lies beside the corrected scope edge and represents excluded special land use."
+    },
+    {
+      "sampleId": "JH-R03",
+      "sampleName": "Beach transition",
+      "reason": "Rejected because sand, shoreline and coastal mixed pixels are unsuitable green/non-green calibration evidence."
+    },
+    {
+      "sampleId": "JH-R04",
+      "sampleName": "Large-building shadow edge",
+      "reason": "Rejected because deep shadow and roof-edge mixing obscure the true surface class."
+    },
+    {
+      "sampleId": "JH-R05",
+      "sampleName": "Provisional coarse sample set",
+      "reason": "Revised after the first 10 m calculation showed several boxes crossed surface transitions and the intended visual classes were not cleanly represented."
+    }
+  ]
+}

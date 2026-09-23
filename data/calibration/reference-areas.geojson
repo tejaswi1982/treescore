@@ -1,0 +1,505 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "N1",
+        "sampleName": "Large roof interior",
+        "sampleClass": "large-roof",
+        "expectedType": "non-green",
+        "center": [
+          72.82896,
+          19.1296
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 60,
+        "notes": "Broad light roof interior including a roof seam; no visible vegetation inside the footprint. Adjacent tower shadows remain outside. Seasonal RGB is light grey and NDVI low.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "agent-visual-accepted-human-pending",
+        "sampleType": "built-up",
+        "observation": "Earth Engine saved script andheri-west-core-dry-season-2026-candidates; Google satellite basemap at zoom 18 (acquisition date unknown), paired Sentinel-2 seasonal RGB/NDVI thumbnails with identical outlined footprints. Broad light roof interior including a roof seam; no visible vegetation inside the footprint. Adjacent tower shadows remain outside. Seasonal RGB is light grey and NDVI low."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.82867499999999,
+              19.12933
+            ],
+            [
+              72.829245,
+              19.12933
+            ],
+            [
+              72.829245,
+              19.12987
+            ],
+            [
+              72.82867499999999,
+              19.12987
+            ],
+            [
+              72.82867499999999,
+              19.12933
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "G1",
+        "sampleName": "Green sports-ground interior",
+        "sampleClass": "green-ground",
+        "expectedType": "green",
+        "center": [
+          72.8355,
+          19.1291
+        ],
+        "widthMetersApprox": 40,
+        "heightMetersApprox": 40,
+        "notes": "Interior grass patch, moved west and shrunk away from the running track. Green in detailed imagery and seasonal RGB, positive spatially coherent NDVI. Grass, not a tree-canopy label.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "agent-visual-accepted-human-pending",
+        "sampleType": "green",
+        "observation": "Earth Engine saved script andheri-west-core-dry-season-2026-candidates; Google satellite basemap at zoom 18 (acquisition date unknown), paired Sentinel-2 seasonal RGB/NDVI thumbnails with identical outlined footprints. Interior grass patch, moved west and shrunk away from the running track. Green in detailed imagery and seasonal RGB, positive spatially coherent NDVI. Grass, not a tree-canopy label."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.83530999999999,
+              19.12892
+            ],
+            [
+              72.83569,
+              19.12892
+            ],
+            [
+              72.83569,
+              19.12928
+            ],
+            [
+              72.83530999999999,
+              19.12928
+            ],
+            [
+              72.83530999999999,
+              19.12892
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "G2",
+        "sampleName": "Tree-heavy compound interior",
+        "sampleClass": "compound-canopy",
+        "expectedType": "green",
+        "center": [
+          72.83065,
+          19.1263
+        ],
+        "widthMetersApprox": 40,
+        "heightMetersApprox": 40,
+        "notes": "Contiguous textured tree crowns between buildings and transport corridor. Shrunken and shifted from the initial building-edge footprint. Seasonal RGB and NDVI confirm vegetation response. Compound ownership/use is not verified.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "agent-visual-accepted-human-pending",
+        "sampleType": "green",
+        "observation": "Earth Engine saved script andheri-west-core-dry-season-2026-candidates; Google satellite basemap at zoom 18 (acquisition date unknown), paired Sentinel-2 seasonal RGB/NDVI thumbnails with identical outlined footprints. Contiguous textured tree crowns between buildings and transport corridor. Shrunken and shifted from the initial building-edge footprint. Seasonal RGB and NDVI confirm vegetation response. Compound ownership/use is not verified."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.83046,
+              19.12612
+            ],
+            [
+              72.83084000000001,
+              19.12612
+            ],
+            [
+              72.83084000000001,
+              19.12648
+            ],
+            [
+              72.83046,
+              19.12648
+            ],
+            [
+              72.83046,
+              19.12612
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "G3",
+        "sampleName": "Dense western woody vegetation",
+        "sampleClass": "dense-canopy",
+        "expectedType": "green",
+        "center": [
+          72.8206,
+          19.1331
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 60,
+        "notes": "Continuous dense woody vegetation texture, shifted inward from a scrub/bare-ground edge. No visible water or buildings in the footprint. Seasonal RGB/NDVI coherent. Species, canopy height and possible wetland vegetation type are not established.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "agent-visual-accepted-human-pending",
+        "sampleType": "green",
+        "observation": "Earth Engine saved script andheri-west-core-dry-season-2026-candidates; Google satellite basemap at zoom 18 (acquisition date unknown), paired Sentinel-2 seasonal RGB/NDVI thumbnails with identical outlined footprints. Continuous dense woody vegetation texture, shifted inward from a scrub/bare-ground edge. No visible water or buildings in the footprint. Seasonal RGB/NDVI coherent. Species, canopy height and possible wetland vegetation type are not established."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.820315,
+              19.13283
+            ],
+            [
+              72.820885,
+              19.13283
+            ],
+            [
+              72.820885,
+              19.13337
+            ],
+            [
+              72.820315,
+              19.13337
+            ],
+            [
+              72.820315,
+              19.13283
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "N2",
+        "sampleName": "Roof-block interior",
+        "sampleClass": "roof-block",
+        "expectedType": "non-green",
+        "center": [
+          72.83432,
+          19.13332
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 60,
+        "notes": "Bright contiguous roof surfaces with dark roof fixtures; boundary kept off surrounding trees. Seasonal RGB grey and NDVI low.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "agent-visual-accepted-human-pending",
+        "sampleType": "built-up",
+        "observation": "Earth Engine saved script andheri-west-core-dry-season-2026-candidates; Google satellite basemap at zoom 18 (acquisition date unknown), paired Sentinel-2 seasonal RGB/NDVI thumbnails with identical outlined footprints. Bright contiguous roof surfaces with dark roof fixtures; boundary kept off surrounding trees. Seasonal RGB grey and NDVI low."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.834035,
+              19.13305
+            ],
+            [
+              72.83460500000001,
+              19.13305
+            ],
+            [
+              72.83460500000001,
+              19.13359
+            ],
+            [
+              72.834035,
+              19.13359
+            ],
+            [
+              72.834035,
+              19.13305
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "N3",
+        "sampleName": "Clear transport-surface strip",
+        "sampleClass": "transport-surface",
+        "expectedType": "non-green",
+        "center": [
+          72.8288,
+          19.13195
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 20,
+        "notes": "Narrow elongated strip across clear transport infrastructure. Replaces a tower-shadowed proposal and is shifted south of the roadside canopy edge. Only about two native 10 m pixels wide; alignment sensitivity is a limitation.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "agent-visual-accepted-human-pending",
+        "sampleType": "built-up",
+        "observation": "Earth Engine saved script andheri-west-core-dry-season-2026-candidates; Google satellite basemap at zoom 18 (acquisition date unknown), paired Sentinel-2 seasonal RGB/NDVI thumbnails with identical outlined footprints. Narrow elongated strip across clear transport infrastructure. Replaces a tower-shadowed proposal and is shifted south of the roadside canopy edge. Only about two native 10 m pixels wide; alignment sensitivity is a limitation."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.828515,
+              19.13186
+            ],
+            [
+              72.829085,
+              19.13186
+            ],
+            [
+              72.829085,
+              19.13204
+            ],
+            [
+              72.828515,
+              19.13204
+            ],
+            [
+              72.828515,
+              19.13186
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "M1",
+        "sampleName": "Residential roof and roadside canopy",
+        "sampleClass": "residential-trees",
+        "expectedType": "mixed",
+        "center": [
+          72.8248,
+          19.1304
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 60,
+        "notes": "Visible canopy in the upper part and built surface/roof in the lower part. Seasonal RGB and NDVI show corresponding spatial mixture. No assumed numerical target green percentage.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "agent-visual-accepted-human-pending",
+        "sampleType": "mixed",
+        "observation": "Earth Engine saved script andheri-west-core-dry-season-2026-candidates; Google satellite basemap at zoom 18 (acquisition date unknown), paired Sentinel-2 seasonal RGB/NDVI thumbnails with identical outlined footprints. Visible canopy in the upper part and built surface/roof in the lower part. Seasonal RGB and NDVI show corresponding spatial mixture. No assumed numerical target green percentage."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.82451499999999,
+              19.13013
+            ],
+            [
+              72.825085,
+              19.13013
+            ],
+            [
+              72.825085,
+              19.130670000000002
+            ],
+            [
+              72.82451499999999,
+              19.130670000000002
+            ],
+            [
+              72.82451499999999,
+              19.13013
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "M2",
+        "sampleName": "Low-rise buildings with scattered trees",
+        "sampleClass": "buildings-gardens",
+        "expectedType": "mixed",
+        "center": [
+          72.83385,
+          19.129
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 60,
+        "notes": "Small roofs, lanes and scattered tree patches. Replaces a high-rise/shadow-dominated proposal. Garden ownership or formal park status not inferred from labels; seasonal NDVI is heterogeneous.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "agent-visual-accepted-human-pending",
+        "sampleType": "mixed",
+        "observation": "Earth Engine saved script andheri-west-core-dry-season-2026-candidates; Google satellite basemap at zoom 18 (acquisition date unknown), paired Sentinel-2 seasonal RGB/NDVI thumbnails with identical outlined footprints. Small roofs, lanes and scattered tree patches. Replaces a high-rise/shadow-dominated proposal. Garden ownership or formal park status not inferred from labels; seasonal NDVI is heterogeneous."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.833565,
+              19.12873
+            ],
+            [
+              72.834135,
+              19.12873
+            ],
+            [
+              72.834135,
+              19.12927
+            ],
+            [
+              72.833565,
+              19.12927
+            ],
+            [
+              72.833565,
+              19.12873
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "M3",
+        "sampleName": "Tree-lined low-rise compound",
+        "sampleClass": "mixed-urban-fabric",
+        "expectedType": "mixed",
+        "center": [
+          72.8252,
+          19.1247
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 60,
+        "notes": "Low-rise roofs with surrounding trees and open compound surfaces. Replaces a pond candidate. Seasonal RGB/NDVI show both built and vegetated components.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "agent-visual-accepted-human-pending",
+        "sampleType": "mixed",
+        "observation": "Earth Engine saved script andheri-west-core-dry-season-2026-candidates; Google satellite basemap at zoom 18 (acquisition date unknown), paired Sentinel-2 seasonal RGB/NDVI thumbnails with identical outlined footprints. Low-rise roofs with surrounding trees and open compound surfaces. Replaces a pond candidate. Seasonal RGB/NDVI show both built and vegetated components."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.82491499999999,
+              19.12443
+            ],
+            [
+              72.825485,
+              19.12443
+            ],
+            [
+              72.825485,
+              19.12497
+            ],
+            [
+              72.82491499999999,
+              19.12497
+            ],
+            [
+              72.82491499999999,
+              19.12443
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "N4",
+        "sampleName": "Dense low-rise built-up block",
+        "sampleClass": "dense-built-up",
+        "expectedType": "non-green",
+        "center": [
+          72.82037,
+          19.13418
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 60,
+        "notes": "Tightly packed small roofs and alleys, avoiding surrounding vegetation. No broad obscuring shadow visible; seasonal RGB heterogeneous grey and NDVI low.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "agent-visual-accepted-human-pending",
+        "sampleType": "built-up",
+        "observation": "Earth Engine saved script andheri-west-core-dry-season-2026-candidates; Google satellite basemap at zoom 18 (acquisition date unknown), paired Sentinel-2 seasonal RGB/NDVI thumbnails with identical outlined footprints. Tightly packed small roofs and alleys, avoiding surrounding vegetation. No broad obscuring shadow visible; seasonal RGB heterogeneous grey and NDVI low."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.82008499999999,
+              19.13391
+            ],
+            [
+              72.820655,
+              19.13391
+            ],
+            [
+              72.820655,
+              19.13445
+            ],
+            [
+              72.82008499999999,
+              19.13445
+            ],
+            [
+              72.82008499999999,
+              19.13391
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "boundaryFile": "data/boundaries/mumbai-localities-v0.3.geojson",
+  "boundaryVersion": "mumbai-localities-v0.2",
+  "boundaryVersionMode": "per-locality",
+  "boundaryFiles": {
+    "mumbai-localities-v0.2": "data/boundaries/mumbai-localities-v0.2.geojson",
+    "juhu-v0.3": "data/boundaries/mumbai-localities-v0.3.geojson"
+  },
+  "currentSeasonYear": 2025,
+  "historicalSeasonYears": [2015, 2020, 2025],
+  "seasonStart": "11-01",
+  "seasonEndExclusive": "03-01",
+  "approvalFiles": [
+    "data/calibration/andheri-approval-v1.json",
+    "data/calibration/juhu-approval-v1.json"
+  ],
+  "greenThreshold": null,
+  "thresholdDecisionId": null,
+  "candidateThresholds": [0.20, 0.25, 0.30, 0.35, 0.40, 0.45],
+  "cloudScoreMinimum": 0.60,
+  "sceneCloudMaximum": 60,
+  "minimumObservations": 3,
+  "minimumCoveragePercent": 90,
+  "waterNdwiThreshold": 0,
+  "scaleMeters": 10,
+  "crs": "EPSG:32643",
+  "currentCollection": "COPERNICUS/S2_SR_HARMONIZED",
+  "historicalCollection": "COPERNICUS/S2_HARMONIZED",
+  "methodVersion": "level1-1.0",
+  "waterMaskVersion": "ndwi-union-1.0"
+}

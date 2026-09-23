@@ -1,0 +1,373 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "R1",
+        "sampleName": "Initial southwest green proposal",
+        "center": [
+          72.8264,
+          19.1253
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 60,
+        "reason": "Dry, partly bare field with scattered vegetation; not a clearly vegetated reference.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "rejected"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.826115,
+              19.12503
+            ],
+            [
+              72.82668500000001,
+              19.12503
+            ],
+            [
+              72.82668500000001,
+              19.12557
+            ],
+            [
+              72.826115,
+              19.12557
+            ],
+            [
+              72.826115,
+              19.12503
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "R2",
+        "sampleName": "Initial compound-canopy footprint",
+        "center": [
+          72.83055,
+          19.1264
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 60,
+        "reason": "Northwest building/vegetation edge and reduced edge NDVI. Replaced with smaller interior G2.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "rejected"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.830265,
+              19.12613
+            ],
+            [
+              72.83083500000001,
+              19.12613
+            ],
+            [
+              72.83083500000001,
+              19.12667
+            ],
+            [
+              72.830265,
+              19.12667
+            ],
+            [
+              72.830265,
+              19.12613
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "R3",
+        "sampleName": "Initial western vegetation proposal",
+        "center": [
+          72.8215,
+          19.1325
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 60,
+        "reason": "Scrub/bare-ground transition, ambiguous as pure green. Replaced with interior G3.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "rejected"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.821215,
+              19.13223
+            ],
+            [
+              72.821785,
+              19.13223
+            ],
+            [
+              72.821785,
+              19.13277
+            ],
+            [
+              72.821215,
+              19.13277
+            ],
+            [
+              72.821215,
+              19.13223
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "R4",
+        "sampleName": "Initial green-ground footprint",
+        "center": [
+          72.8357,
+          19.1292
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 60,
+        "reason": "Footprint reached the running-track edge. Replaced with smaller interior G1.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "rejected"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.835415,
+              19.12893
+            ],
+            [
+              72.83598500000001,
+              19.12893
+            ],
+            [
+              72.83598500000001,
+              19.12947
+            ],
+            [
+              72.835415,
+              19.12947
+            ],
+            [
+              72.835415,
+              19.12893
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "R5",
+        "sampleName": "Initial transport forecourt",
+        "center": [
+          72.8277,
+          19.132
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 60,
+        "reason": "Substantial adjacent-building shadow and roof/transport mixture.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "rejected"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.82741499999999,
+              19.13173
+            ],
+            [
+              72.827985,
+              19.13173
+            ],
+            [
+              72.827985,
+              19.132270000000002
+            ],
+            [
+              72.82741499999999,
+              19.132270000000002
+            ],
+            [
+              72.82741499999999,
+              19.13173
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "R6",
+        "sampleName": "Initial mixed-garden proposal",
+        "center": [
+          72.8325,
+          19.1286
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 60,
+        "reason": "Building- and shadow-dominated footprint with little clear garden area; poor mixed reference.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "rejected"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.83221499999999,
+              19.12833
+            ],
+            [
+              72.832785,
+              19.12833
+            ],
+            [
+              72.832785,
+              19.12887
+            ],
+            [
+              72.83221499999999,
+              19.12887
+            ],
+            [
+              72.83221499999999,
+              19.12833
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "R7",
+        "sampleName": "Initial mixed-fabric proposal",
+        "center": [
+          72.8349,
+          19.1248
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 60,
+        "reason": "Pond and water-edge contamination, clearly visible in detailed imagery and masked seasonal NDVI.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "rejected"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.834615,
+              19.12453
+            ],
+            [
+              72.83518500000001,
+              19.12453
+            ],
+            [
+              72.83518500000001,
+              19.12507
+            ],
+            [
+              72.834615,
+              19.12507
+            ],
+            [
+              72.834615,
+              19.12453
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sampleId": "R8",
+        "sampleName": "Northern transport strip placement",
+        "center": [
+          72.8288,
+          19.13205
+        ],
+        "widthMetersApprox": 60,
+        "heightMetersApprox": 20,
+        "reason": "Too close to roadside canopy edge; shifted south before calculation.",
+        "localityId": "andheri-west-core",
+        "boundaryVersion": "mumbai-localities-v0.2",
+        "reviewDate": "2026-09-13",
+        "reviewer": "Codex visual imagery review; human approval pending",
+        "reviewStatus": "rejected"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.828515,
+              19.13196
+            ],
+            [
+              72.829085,
+              19.13196
+            ],
+            [
+              72.829085,
+              19.13214
+            ],
+            [
+              72.828515,
+              19.13214
+            ],
+            [
+              72.828515,
+              19.13196
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

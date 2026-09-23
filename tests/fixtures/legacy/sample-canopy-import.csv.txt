@@ -1,0 +1,13 @@
+localityId,year,canopyPercent
+andheri-west,2016,10.8
+andheri-west,2018,10.1
+andheri-west,2020,9.6
+andheri-west,2022,9.1
+andheri-west,2024,8.9
+andheri-west,2026,8.7
+powai,2016,23.8
+powai,2018,23.6
+powai,2020,23.4
+powai,2022,23.2
+powai,2024,23.1
+powai,2026,23.0

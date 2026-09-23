@@ -1,0 +1,9 @@
+node_modules
+.next
+gee
+src/data/boundaries.json
+data/boundaries
+files
+tests/fixtures/legacy
+public/docs
+package-lock.json

@@ -1,0 +1,9 @@
+[
+  { "id": "andheri-west-core", "displayName": "Andheri West Core", "parentLocality": "Andheri West", "dataStatus": "pending", "publishableRanking": false },
+  { "id": "powai-lake-urban-area", "displayName": "Powai Lake + Urban Area", "parentLocality": "Powai", "dataStatus": "pending", "publishableRanking": false },
+  { "id": "juhu", "displayName": "Juhu", "parentLocality": "Juhu", "dataStatus": "pending", "publishableRanking": false },
+  { "id": "bandra-west", "displayName": "Bandra West", "parentLocality": "Bandra", "dataStatus": "planned", "publishableRanking": false, "expansionOrder": 1 },
+  { "id": "juhu-extended", "displayName": "Juhu-extended", "parentLocality": "Juhu", "dataStatus": "planned", "publishableRanking": false, "expansionOrder": 2 },
+  { "id": "versova", "displayName": "Versova", "parentLocality": "Versova", "dataStatus": "planned", "publishableRanking": false, "expansionOrder": 3 },
+  { "id": "powai-extended", "displayName": "Powai-extended", "parentLocality": "Powai", "dataStatus": "planned", "publishableRanking": false, "expansionOrder": 4 }
+]

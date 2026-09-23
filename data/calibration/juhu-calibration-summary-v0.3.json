@@ -1,0 +1,112 @@
+{
+  "localityId": "juhu",
+  "localityName": "Juhu",
+  "boundaryVersion": "juhu-v0.3",
+  "analysisStart": "2025-11-01",
+  "analysisEndExclusive": "2026-03-01",
+  "analysisEndInclusive": "2026-02-28",
+  "collection": "COPERNICUS/S2_SR_HARMONIZED",
+  "sceneCount": 51,
+  "cloudMaskMethod": "Scene cloudiness <= 60%; Cloud Score+ cs_cdf >= 0.60; valid B2/B3/B4/B8 masks; minimum 3 clear observations; median composite",
+  "waterMaskMethod": "Composite NDWI > 0 excluded from the valid-land denominator",
+  "scaleMeters": 10,
+  "crs": "EPSG:32643",
+  "methodologyVersion": "level1-1.0",
+  "polygonAreaSqKm": 1.8982683086266041,
+  "areaWithMinimumObservationsSqKm": 1.8924283366256724,
+  "excludedWaterSqKm": 0.030772249793617392,
+  "validLandAreaSqKm": 1.861656086832055,
+  "coveragePercent": 98.07128309374805,
+  "calibrationVersion": "juhu-sr-dry2026-v0.3-calibration-v1-draft",
+  "acceptedSampleCount": 12,
+  "rejectedOrRevisedCount": 5,
+  "candidateThresholds": [
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45
+  ],
+  "classMeans": [
+    {
+      "threshold": 0.2,
+      "greenMeanPercent": 98.76372023937463,
+      "non-greenMeanPercent": 5.198173876442194,
+      "mixedMeanPercent": 71.24080304885081
+    },
+    {
+      "threshold": 0.25,
+      "greenMeanPercent": 98.02426329917769,
+      "non-greenMeanPercent": 2.8402534659922787,
+      "mixedMeanPercent": 50.32729329892431
+    },
+    {
+      "threshold": 0.3,
+      "greenMeanPercent": 93.14970837581103,
+      "non-greenMeanPercent": 0,
+      "mixedMeanPercent": 42.2838263406016
+    },
+    {
+      "threshold": 0.35,
+      "greenMeanPercent": 86.30784134736362,
+      "non-greenMeanPercent": 0,
+      "mixedMeanPercent": 29.11060839930643
+    },
+    {
+      "threshold": 0.4,
+      "greenMeanPercent": 77.38823357005974,
+      "non-greenMeanPercent": 0,
+      "mixedMeanPercent": 22.780338206131983
+    },
+    {
+      "threshold": 0.45,
+      "greenMeanPercent": 60.837872811131184,
+      "non-greenMeanPercent": 0,
+      "mixedMeanPercent": 14.919874231428212
+    }
+  ],
+  "recommendedThreshold": 0.3,
+  "plausibleRange": [
+    0.3,
+    0.35
+  ],
+  "reviewerStatus": "agent-visual-reviewed-human-pending",
+  "thresholdApproved": false,
+  "candidateResults": [
+    {
+      "threshold": 0.2,
+      "greenAreaSqKm": 1.2728224033726419,
+      "greenCoverPercent": 68.370437073508
+    },
+    {
+      "threshold": 0.25,
+      "greenAreaSqKm": 1.0848209703432858,
+      "greenCoverPercent": 58.27182464132272
+    },
+    {
+      "threshold": 0.3,
+      "greenAreaSqKm": 0.9087353412322402,
+      "greenCoverPercent": 48.813276934442705
+    },
+    {
+      "threshold": 0.35,
+      "greenAreaSqKm": 0.7363043771281823,
+      "greenCoverPercent": 39.55104180284649
+    },
+    {
+      "threshold": 0.4,
+      "greenAreaSqKm": 0.5780112546663769,
+      "greenCoverPercent": 31.048229517513505
+    },
+    {
+      "threshold": 0.45,
+      "greenAreaSqKm": 0.43047992036153765,
+      "greenCoverPercent": 23.123493292151352
+    }
+  ],
+  "warnings": [
+    "One transient RGB tile/server connection error occurred on a later rerun; calculations and earlier/later RGB rendering succeeded.",
+    "Full-locality estimate changes by 18.7208 percentage points across 0.25, 0.30 and 0.35."
+  ]
+}

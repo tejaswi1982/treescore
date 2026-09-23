@@ -1,0 +1,32 @@
+{
+  "localityId": "juhu",
+  "localityName": "Juhu",
+  "boundaryVersion": "mumbai-localities-v0.2",
+  "runId": "juhu-sr-dry2026-candidates-v1",
+  "savedEarthEngineScript": "juhu-dry-season-2026-candidates",
+  "analysisStart": "2025-11-01",
+  "analysisEndExclusive": "2026-03-01",
+  "analysisEndInclusive": "2026-02-28",
+  "collection": "COPERNICUS/S2_SR_HARMONIZED",
+  "cloudMaskMethod": "Scene cloudiness <= 60%; Cloud Score+ cs_cdf >= 0.60; valid B2/B3/B4/B8 masks; minimum 3 clear observations; median composite",
+  "waterMaskMethod": "NDWI > 0 excluded from the valid-land denominator",
+  "scaleMeters": 10,
+  "crs": "EPSG:32643",
+  "sceneCount": 51,
+  "polygonAreaSqKm": 2.8541789606846404,
+  "areaWithMinimumObservationsSqKm": 2.8454243576132083,
+  "excludedWaterSqKm": 0.14064322499709786,
+  "validLandAreaSqKm": 2.704781132616112,
+  "coveragePercent": 100,
+  "candidateResults": [
+    { "threshold": 0.2, "greenAreaSqKm": 1.8957180646605554, "greenCoverPercent": 70.08766963805991 },
+    { "threshold": 0.25, "greenAreaSqKm": 1.6342908382516308, "greenCoverPercent": 60.42229511823442 },
+    { "threshold": 0.3, "greenAreaSqKm": 1.4093004362725357, "greenCoverPercent": 52.10404713631803 },
+    { "threshold": 0.35, "greenAreaSqKm": 1.1899978235503554, "greenCoverPercent": 43.99608564258833 },
+    { "threshold": 0.4, "greenAreaSqKm": 0.9696118320687686, "greenCoverPercent": 35.848069937213104 },
+    { "threshold": 0.45, "greenAreaSqKm": 0.7482204175100887, "greenCoverPercent": 27.662882164014384 }
+  ],
+  "visualStatus": "blocked-boundary-review",
+  "productionEligible": false,
+  "notes": "Real Earth Engine console results from the saved script. RGB and NDVI loaded successfully after one transient tile/server error. Calibration stopped before sample selection because the unchanged v0.2 southern lobe visibly includes a large aerodrome/open-ground and lagoon footprint despite the boundary assumptions saying airport land is excluded. No threshold is recommended or approved."
+}
