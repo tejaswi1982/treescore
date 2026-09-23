@@ -1,11 +1,11 @@
 [build]
 builder = "NIXPACKS"
-buildCommand = "npm ci && npm run build"
+# Install happens once in nixpacks.toml; build only here.
+buildCommand = "npm run build"
 
 [deploy]
 startCommand = "npm start"
+healthcheckPath = "/"
+healthcheckTimeout = 100
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 3
-
-[variables]
-NODE_ENV = "production"
