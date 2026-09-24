@@ -1,11 +1,19 @@
-node_modules
-.next
-out
-.env*
+*.log
+*.tmp
 *.tsbuildinfo
 .DS_Store
+.env*
+.env*.local
+.next
+.next/
+.openai/
+.turbo/
+.vercel/
+coverage/
+dist/
+next-env.d.ts
+node_modules
+node_modules/
+out
+out/
 tmp/
-*.tmp
-.claude/
-Screenshots from Lovable/
-images from Google Earth Code Editor/

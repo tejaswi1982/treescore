@@ -63,9 +63,29 @@ export function Footer() {
           <p>
             © 2026 TreeScore. A measurement platform. Built first for Mumbai.
           </p>
-          <p>
-            Satellite-derived green cover estimate · TreeScore-defined analysis
-            areas.
+          <p className="flex flex-wrap items-center gap-x-2 gap-y-1">
+            <span>
+              Satellite-derived green cover estimate · TreeScore-defined
+              analysis areas.
+            </span>
+            <span aria-hidden="true">·</span>
+            <a
+              href="https://abhinandantejaswi.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="-my-1 py-1 text-cream/60 transition-colors hover:text-cream focus-visible:text-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cream/70"
+            >
+              Website
+            </a>
+            <span aria-hidden="true">·</span>
+            <a
+              href="https://www.linkedin.com/in/abhinandantejaswi/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="-my-1 py-1 text-cream/60 transition-colors hover:text-cream focus-visible:text-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cream/70"
+            >
+              LinkedIn
+            </a>
           </p>
         </div>
       </div>

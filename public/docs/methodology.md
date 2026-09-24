@@ -42,11 +42,11 @@ Rank only reviewed observations with both release and locality `publishableRanki
 
 Earth Engine outputs are calculated observations, not verified claims. A reviewer must inspect source imagery, sample calibration, water masks, coverage and boundaries, then tie review to the raw export SHA256. `verified` means that this project review was recorded; it is not external certification. Import tooling checks consistency, not whether a person actually performed scientific review. Keep exports, calibration decisions and review notes for independent audit. Andheri West Core and Juhu are imported reviewed beta measurements. Powai and all historical measurements remain pending.
 
-## Approved Juhu beta release — 23 September 2026
+## Approved Juhu beta release: 23 September 2026
 
 The project owner approved Juhu v0.3 and NDVI >= 0.30 only for the 1 November 2025 through 28 February 2026 Sentinel-2 Surface Reflectance analysis, Cloud Score+ mask, at least three clear observations, NDWI water exclusion and reviewed v0.3 samples. Calibration version: `juhu-sr-dry2026-v0.3-v1`. The v0.3 boundary preserves the intended coastal residential area while removing the aerodrome, lagoon and adjacent land identified during visual QA. The public result is 48.8%; the exact imported value is retained. Rankings remain withheld.
 
-## Approved Andheri beta release — 13 September 2026
+## Approved Andheri beta release: 13 September 2026
 
 The project owner approved NDVI >= 0.35 only for Andheri West Core v0.2, Sentinel-2 Surface Reflectance, 1 November 2025 through 28 February 2026, the existing Cloud Score+ mask, at least three clear observations, NDWI water exclusion, and the current calibration sample set. Calibration version: andheri-sr-dry2026-v1. Processing version: level1-1.0. Global threshold defaults remain null; release approval is scoped and tied to the boundary and reference-file hashes. This is not an official government measurement or external certification.
 

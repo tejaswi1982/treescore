@@ -21,8 +21,8 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: siteUrl,
   title: {
-    default: "TreeScore — How green is your neighbourhood?",
-    template: "%s — TreeScore",
+    default: "TreeScore: How green is your neighbourhood?",
+    template: "%s | TreeScore",
   },
   description:
     "Satellite-derived green cover estimates for TreeScore-defined Mumbai analysis areas. Measure first. Claim later.",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     statusBarStyle: "default",
   },
   openGraph: {
-    title: "TreeScore — How green is your neighbourhood?",
+    title: "TreeScore: How green is your neighbourhood?",
     description:
       "Measure India's urban green cover clearly, honestly and consistently. Starting with Mumbai.",
     siteName: "TreeScore",

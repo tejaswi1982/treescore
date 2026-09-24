@@ -1,13 +1,7 @@
-[variables]
-# Keep devDependencies available for `next build` (typescript, tailwind, etc.)
-NPM_CONFIG_PRODUCTION = "false"
-NIXPACKS_NODE_VERSION = "24"
-
 [phases.setup]
 nixPkgs = ["nodejs_24"]
 
 [phases.install]
-# Single install only. --include=dev survives production env flags.
 cmds = ["npm ci --include=dev"]
 
 [phases.build]

@@ -14,11 +14,11 @@ export function formatTrend(value: number): string {
   return `${sign}${Math.abs(value).toFixed(1)}%`;
 }
 
-/** "▼" / "▲" / "—" for trend direction. */
+/** "▼" / "▲" / "•" for trend direction or no change. */
 export function trendArrow(value: number): string {
   if (value < 0) return "▼";
   if (value > 0) return "▲";
-  return "—";
+  return "•";
 }
 
 /** "14 / 20" */

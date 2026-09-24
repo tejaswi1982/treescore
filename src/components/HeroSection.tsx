@@ -13,7 +13,7 @@ export function HeroSection() {
         </h1>
         <p className="mt-7 max-w-lg text-base leading-relaxed text-cream/80 md:text-lg">
           A calm, data-first way to measure and compare urban green cover across
-          Indian cities — starting with Mumbai.
+          Indian cities, starting with Mumbai.
         </p>
         <div className="mt-10 flex flex-wrap gap-3">
           <Link

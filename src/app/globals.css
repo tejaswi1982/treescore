@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  /* TreeScore palette — warm, civic, restrained */
+  /* TreeScore palette: warm, civic, restrained */
   --color-paper: #f5f2e9; /* warm off-white canvas */
   --color-cream: #fbf9f2; /* raised card surface */
   --color-sand: #ede8da; /* quiet fill */

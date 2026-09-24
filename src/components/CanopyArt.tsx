@@ -1,7 +1,7 @@
 /**
  * Generated canopy-light artwork used as the hero backdrop.
- * Evokes warm sunlight seeping through leaves — layered gradients,
- * soft foliage shapes, and a very restrained survey-grid overlay —
+ * Evokes warm sunlight seeping through leaves with layered gradients,
+ * soft foliage shapes, and a very restrained survey-grid overlay.
  * without relying on stock photography. Swap for real canopy
  * photography later by replacing this component's contents.
  */
